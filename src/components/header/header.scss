@@ -1,7 +1,13 @@
+@import "../../scss/colors.scss";
+
 .header {
-    height: 716px;
-    background-image: url('../../assets/Images/header/IMAGE1.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  height: 716px;
+  background-image: url("../../assets/Images/header/IMAGE1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  &__text {
+    color: map-get($mainColors, "mainGray");
+    text-transform: uppercase;
+  }
 }

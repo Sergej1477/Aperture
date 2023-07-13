@@ -1,4 +1,23 @@
+@import "../../scss/colors.scss";
+
 .navigation {
-    height: 90px;
-    background-color: map-get($mainColors, 'mainBlack2');
+  height: 90px;
+  background-color: map-get($mainColors, "mainBlack2");
+  &__top-panel {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+  }
+  &__item {
+    display: flex;
+    gap: 32px;
+    &--white {
+      color: map-get($mainColors, "mainWhite");
+    }
+  }
 }
