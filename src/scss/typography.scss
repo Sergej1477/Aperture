@@ -1,5 +1,5 @@
-$mainFontFamily: 'Roboto';
+$mainFontFamily: 'Poppins';
 $mainFontWigth: 400;
-$mainFontSize: 26px;
-$mainLineHeight: 40px;
-$mainColor: map-get($darkColors, 'dark');
+$mainFontSize: 13px;
+$mainLineHeight: 20px;
+$mainColor: map-get($mainColors, 'mainWhite');
