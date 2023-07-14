@@ -1,0 +1,1 @@
+import './costarica.scss';

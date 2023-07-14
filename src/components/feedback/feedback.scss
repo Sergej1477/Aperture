@@ -1,0 +1,9 @@
+@import "../../scss/colors.scss";
+
+.feedback {
+  height: 414px;
+  background-color: map-get($mainColors, "mainBlack");
+  &__text {
+    color: map-get($mainColors, "mainGray");
+  }
+}

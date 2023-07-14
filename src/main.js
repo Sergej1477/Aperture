@@ -6,3 +6,8 @@ import './components/header/header';
 import './components/button/button';
 import './components/promo/promo';
 import './components/japan/japan';
+import './components/photo/photo';
+import './components/costarica/costarica';
+import './components/brands/brands';
+import './components/nepal/nepal';
+import './components/feedback/feedback';

@@ -1,0 +1,12 @@
+@import '../../scss/colors.scss';
+
+.photo {
+    height: 540px;
+    background-color: map-get($mainColors,'mainBlack');
+    background-image: url('../../assets/Images/photo/photo1.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    &__text {
+        width: 500px;
+    }
+}

@@ -1,6 +1,6 @@
-.japan {
+.costarica {
   height: 600px;
-  background-image: url("../../assets/Images/japan/japan1.jpg");
+  background-image: url("../../assets/Images/photo/photo2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -10,7 +10,7 @@
     flex-direction: column;
     align-content: flex-end;
     &--item {
-      width: 298px;
+        width: 273px;
     }
   }
 }

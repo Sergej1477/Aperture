@@ -1,0 +1,16 @@
+.nepal {
+    height: 600px;
+    background-image: url("../../assets/Images/photo//nepal.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &__text {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-content: flex-end;
+      &--item {
+          width: 241px;
+      }
+    }
+  }

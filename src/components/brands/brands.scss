@@ -1,0 +1,14 @@
+@import '../../scss/colors.scss';
+
+.brands {
+    height: 500px;
+    background-color: map-get($mainColors,'mainBlack');
+    &__text {
+        color: map-get($mainColors,'mainGray');
+    }
+    &__image {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
