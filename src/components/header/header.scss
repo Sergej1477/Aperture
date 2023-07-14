@@ -10,4 +10,13 @@
     color: map-get($mainColors, "mainGray");
     text-transform: uppercase;
   }
+  &__link {
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+    &--item {
+      display: flex;
+      gap: 6px;
+    }
+  }
 }
