@@ -1,15 +1,17 @@
 @import "../../scss/colors.scss";
 
-.feedback {
-  height: 414px;
+.footer {
+  height: 652px;
   background-color: map-get($mainColors, "mainBlack");
-  &__text {
-    color: map-get($mainColors, "mainGray");
+  &__top {
+    display: flex;
   }
-  &__form {
+  &__link {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+  }
+  &__subscribe {
+    display: flex;
+    justify-content: space-between;
   }
 }

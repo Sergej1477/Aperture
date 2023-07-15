@@ -11,3 +11,4 @@ import './components/costarica/costarica';
 import './components/brands/brands';
 import './components/nepal/nepal';
 import './components/feedback/feedback';
+import './components/footer/footer';
