@@ -1,14 +1,20 @@
-@import '../../scss/colors.scss';
+@import "../../scss/colors.scss";
+@import "../../scss/breakpoints.scss";
 
 .brands {
-    height: 500px;
-    background-color: map-get($mainColors,'mainBlack');
-    &__text {
-        color: map-get($mainColors,'mainGray');
+  height: 500px;
+  background-color: map-get($mainColors, "mainBlack");
+  &__text {
+    color: map-get($mainColors, "mainGray");
+  }
+  &__image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__description {
+    @media screen and (max-width: map-get($breakpoints,"sm")) {
+      display: none;
     }
-    &__image {
-        display: flex;
-        justify-content: space-between;
-    }
-
+  }
 }

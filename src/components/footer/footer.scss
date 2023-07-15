@@ -1,4 +1,5 @@
 @import "../../scss/colors.scss";
+@import "../../scss/breakpoints.scss";
 
 .footer {
   height: 652px;
@@ -13,5 +14,19 @@
   &__subscribe {
     display: flex;
     justify-content: space-between;
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__btn {
+    @media screen and (max-width: map-get($breakpoints,'md')) {
+      display: none;
+    }
+  }
+  &__responsiv {
+    @media screen and (max-width: map-get($breakpoints,'xl')) {
+      margin-left: 12px;
+    }
   }
 }

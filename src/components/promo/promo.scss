@@ -1,4 +1,5 @@
 @import "../../scss/colors.scss";
+@import "../../scss/breakpoints.scss";
 
 .promo {
   height: 1558px;
@@ -29,9 +30,15 @@
 
 .card2 {
     background: url(../../assets/Images/promo/Card2.jpg);
+    @media screen and (max-width: map-get($breakpoints,'xl')) {
+      display: none;
+    }
 }
 .card3 {
     background: url(../../assets/Images/promo/Card3.jpg);
+    @media screen and (max-width: map-get($breakpoints,'xl')) {
+      display: none;
+    }
 }
 .card4 {
     background: url(../../assets/Images/promo/Card4.jpg);
