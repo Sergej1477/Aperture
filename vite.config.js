@@ -1,7 +1,12 @@
-import Inspect from 'vite-plugin-inspect'
+import { resolve } from "path";
+import { defineConfig } from "vite";
 
-export default {
-    plugins: [
-        Inspect()
-    ],
-}
+export default defineConfig({
+  build: {
+    rollupOptions: {
+      input: {
+        src: resolve(__dirname, "./src/main.js"),
+      },
+    },
+  },
+});
